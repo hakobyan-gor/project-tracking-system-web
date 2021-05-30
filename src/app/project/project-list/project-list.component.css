@@ -1,0 +1,46 @@
+.P-products {
+  width: calc(100% - 20px);
+  background: #478EA8;
+  padding: 0 10px 20px;
+}
+
+.P-add-button {
+  background: green;
+  padding: 2px 10px;
+  margin-top: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.P-products table {
+  width: 100%;
+  background: #FFFFFF;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+.P-products table th {
+  text-align: center;
+  background: #D3D3D3;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
+.P-products table td {
+  cursor: pointer;
+}
+
+.P-products table td {
+  border: 1px solid lightgray;
+  padding: 2px;
+}
+
+.P-delete-row {
+  width: 35px;
+}
+
+.P-table-wrap {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background: #FFFFFF;
+}

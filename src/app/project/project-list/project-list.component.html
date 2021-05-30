@@ -1,0 +1,20 @@
+<div class="P-products">
+  <h2 style="color:#FFFFFF;">Project list</h2>
+
+  <div class="P-table-wrap">
+    <table>
+      <tr>
+        <th></th>
+        <th>Projects</th>
+      </tr>
+
+      <tr *ngFor="let item of projects; let index = index" [routerLink]="['/project', item.id]">
+        <td class="P-delete-row">
+          <button (click)="deleteProject(item.id, index)" style="color: #FF0000">x</button>
+        </td>
+        <td>{{ item.title }}</td>
+      </tr>
+    </table>
+    <button class="P-add-button" (click)="addNewProject()">Add</button>
+  </div>
+</div>

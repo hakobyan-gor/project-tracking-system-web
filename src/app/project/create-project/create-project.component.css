@@ -1,0 +1,56 @@
+.P-buttons {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.P-create-project {
+  background: #478EA8;
+  padding: 0 10px 20px;
+}
+
+.P-create-project-input {
+  width: calc(100% - 8px);
+}
+
+.P-create-project-sup {
+  color: #FF0000
+}
+
+.P-product-details sup {
+  color: #FF0000
+}
+
+.P-medium-span {
+  font-size: 20px;
+}
+
+.P-add-button {
+  background: green;
+  padding: 2px 10px;
+  margin-top: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.P-create-project-table {
+  width: 100%;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.P-create-project table th {
+  text-align: center;
+  padding: 2px;
+  border: 1px solid lightgray;
+  background: #D3D3D3;
+}
+
+.P-create-project table td {
+  cursor: pointer;
+}
+
+.P-create-project table td {
+  border: 1px solid #d3d3d3;
+  padding: 2px;
+}
